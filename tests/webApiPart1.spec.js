@@ -14,7 +14,7 @@ test.beforeAll(async () => {
     response = await apiutils.createOrder(orderPayLoad);
 });
 
-
+//place the order
 test('Place the order', async ({ page }) => {
 
     page.addInitScript(value => {

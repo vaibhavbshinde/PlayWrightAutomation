@@ -6,6 +6,7 @@ class APIUtils {
       this.loginPayLoad = loginPayLoad;
    }
 
+   //generate token
    async getToken() {
       const loginResponse = await this.apiContext.post("https://rahulshettyacademy.com/api/ecom/auth/login",
          {
