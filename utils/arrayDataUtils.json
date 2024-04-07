@@ -1,0 +1,20 @@
+[
+        {
+            "username" : "Admin",
+            "password" : "admin123",
+            "fullname" : "Mario",
+            "lastname" : "James",
+            "email" : "test.user@ymail.com",
+            "empid" : "E123",
+            "path" : "./uploadFiles/ResumeTemplate.docx"
+        },
+        {
+            "username" : "InvalidUser",
+            "password" : "admin123",
+            "fullname" : "InvalidUser",
+            "lastname" : "InvalidUserLastName",
+            "email" : "invalid.user@ymail.com",
+            "empid" : "E000",
+            "path" : "./uploadFiles/ResumeTemplate.docx"
+        }
+]
